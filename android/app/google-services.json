@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982782078230",
+    "project_id": "ezygo-e579d",
+    "storage_bucket": "ezygo-e579d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982782078230:android:01f16dc7dfdf2d64e03437",
+        "android_client_info": {
+          "package_name": "com.example.ezygo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZmmFesTjz-7OOdknoVFtNVF89KnF3Sik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
