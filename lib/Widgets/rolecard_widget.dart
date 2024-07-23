@@ -18,7 +18,10 @@ class RoleCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: () {
+        print('RoleCard tapped: $title'); // Debug statement
+        onTap();
+      },
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 5),
         padding: const EdgeInsets.all(10),

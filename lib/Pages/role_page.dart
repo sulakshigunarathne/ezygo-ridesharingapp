@@ -1,3 +1,4 @@
+import 'package:ezygo/Pages/rider_page.dart';
 import 'package:flutter/material.dart';
 import 'package:ezygo/Widgets/rolecard_widget.dart';
 
@@ -60,6 +61,7 @@ class _RolePageState extends State<RolePage> {
                   const SizedBox(height: 10),
                   GestureDetector(
                     onTap: () {
+                      print('Rider role card tapped'); // Debug print
                       // Handle customer role tap
                       // Navigator.push(
                       //   context,
@@ -83,6 +85,11 @@ class _RolePageState extends State<RolePage> {
                             cardColor: Colors.blue,
                             onTap: () {
                               // Navigate to Rider Screen
+                              print('Navigating to RiderPage');
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => const RiderPage()),
+                              );
                             },
                           ),
                           RoleCard(

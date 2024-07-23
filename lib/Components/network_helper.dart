@@ -26,10 +26,10 @@ class NetworkHelper {
       String data = response.body;
       return jsonDecode(data);
     } else {
-      print("222");
-      print("222");
-      print("222");
-      print(response.statusCode);
+      // print("222");
+      // print("222");
+      // print("222");
+      // print(response.statusCode);
     }
   }
 }

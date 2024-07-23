@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ezygo/Widgets/login_widget.dart';
+import 'package:ezygo/Widgets/phone_auth.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -62,7 +62,8 @@ class _LoginPageState extends State<LoginPage> {
                 // color: Colors.red,
                 decoration:
                     BoxDecoration(borderRadius: BorderRadius.circular(25)),
-                child: const LoginView(),
+                child: const PhoneAuth(),
+                
               ),
               ),
             ],
